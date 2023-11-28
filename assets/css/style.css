@@ -270,7 +270,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #0e9bdf;
 }
 
 .section-heading p {
@@ -284,8 +284,8 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgb(219, 138, 222) !important;
-  background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%) !important;
+  background: rgb(14, 155, 223) !important;
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   height: 80px !important;
   position: fixed !important;
   top: 0 !important;
@@ -295,7 +295,9 @@ header
 }
 
 .header-area {
-  background-image: url(../images/header-bg.png);
+  background: rgb(14, 155, 223);
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%);
+  border-radius: 0px 0px 25px 25px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -379,7 +381,6 @@ header
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #fff !important;
-  opacity: 0.75;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -583,7 +584,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #dc8cdb;
+  color: #0e9bdf;
 }
 
 @media (max-width: 1200px) {
@@ -604,7 +605,7 @@ header
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #dc8cdb !important;
+    color: #0e9bdf !important;
     opacity: 1;
   }
 
