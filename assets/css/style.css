@@ -158,12 +158,12 @@ body {
 }
 
 ::selection {
-  background: #dc8cdb;
+  background: #0e9bdf;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #dc8cdb;
+  background: #0e9bdf;
   color: #fff;
 }
 
@@ -191,8 +191,8 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219, 138, 222);
-  background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%);
+  background: rgb(14, 155, 223) !important;
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -202,14 +202,14 @@ body {
 }
 
 .main-button-gradient a:hover {
-  background: rgb(219, 138, 222);
-  background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%);
+  background: rgb(14, 155, 223) !important;
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   opacity: 0.9;
 }
 
 .white-button a {
   font-size: 13px;
-  color: #dc8cdb;
+  color: rgb(14, 155, 223) !important;
   background-color: #fff;
   padding: 12px 30px;
   display: inline-block;
@@ -226,7 +226,7 @@ body {
 .text-button a {
   font-size: 14px;
   font-weight: 500;
-  color: #dc8cdb;
+  color: #0e9bdf;
   text-decoration: underline !important;
   transition: all .3s;
 }
@@ -295,8 +295,8 @@ header
 }
 
 .header-area {
-  background: rgb(14, 155, 223);
-  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%);
+  background: rgb(14, 155, 223) !important;
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   border-radius: 0px 0px 25px 25px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -444,7 +444,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #dc8cdb !important;
+  color: #0e9bdf !important;
   padding-left: 25px;
 }
 
@@ -675,7 +675,7 @@ header
 
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #dc8cdb !important;
+    color: #0e9bdf !important;
   }
 
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -751,7 +751,6 @@ section.main-banner {
 
 .main-banner .right-image::after {
   position: absolute;
-  background-image: url(../images/banner-right-dec.png);
   width: 378px;
   height: 378px;
   content: '';
@@ -761,7 +760,6 @@ section.main-banner {
 
 .main-banner .header-text::after {
   position: absolute;
-  background-image: url(../images/banner-left-dec.png);
   width: 214px;
   height: 429px;
   content: '';
@@ -773,10 +771,10 @@ section.main-banner {
 .main-banner .header-text h6 {
   position: relative;
   z-index: 2;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   text-transform: capitalize;
-  color: #777777;
+  color: #111111;
   ;
 }
 
@@ -784,7 +782,7 @@ section.main-banner {
   position: relative;
   z-index: 2;
   margin-top: 20px;
-  font-size: 64px;
+  font-size: 50px;
   color: #111111;
   font-weight: 900;
   line-height: 74px;
@@ -793,7 +791,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #0e9bdf;
 }
 
 .main-banner .main-button-gradient {
@@ -849,7 +847,7 @@ services
 }
 
 .services .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #0e9bdf;
 }
 
 
@@ -909,7 +907,7 @@ section.our-courses .naccs .menu div {
 }
 
 section.our-courses .naccs .menu div.active {
-  color: #dc8cdb;
+  color: #0e9bdf;
   border: 3px solid rgba(219, 138, 222, 1);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
@@ -1118,7 +1116,7 @@ section.testimonials:after {
 .testimonials .item span {
   font-size: 13px;
   font-weight: 700;
-  color: #dc8cdb;
+  color: #0e9bdf;
 }
 
 .testimonials .item img {
@@ -1143,7 +1141,7 @@ section.testimonials:after {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #0e9bdf;
 }
 
 
@@ -1206,7 +1204,7 @@ section.contact-us .contact-info h4 {
 
 section.contact-us .contact-info span {
   font-size: 15px;
-  color: #dc8cdb;
+  color: #0e9bdf;
   font-weight: 700;
 }
 
@@ -1295,13 +1293,13 @@ section.contact-us ul.social-icons li a {
   text-align: center;
   line-height: 44px;
   background-color: #fff;
-  color: #dc8cdb;
+  color: #0e9bdf;
   border-radius: 50%;
   transition: all .5s;
 }
 
 section.contact-us ul.social-icons li a:hover {
-  background-color: #dc8cdb;
+  background-color: #0e9bdf;
   color: #fff;
 }
 
@@ -1462,13 +1460,13 @@ section.our-team .naccs .menu div h4 {
 section.our-team .naccs .menu div span {
   font-size: 12px;
   text-transform: uppercase;
-  color: #dc8cdb;
+  color: #0e9bdf;
   font-weight: 700;
   display: block;
 }
 
 section.our-team .naccs .menu div.active h4 {
-  color: #dc8cdb;
+  color: #0e9bdf;
 }
 
 section.our-team ul.nacc {
@@ -1534,7 +1532,7 @@ section.our-team ul.nacc li .left-content span a {
 }
 
 section.our-team ul.nacc li .left-content span a:hover {
-  color: #dc8cdb;
+  color: #0e9bdf;
 }
 
 section.our-team ul.nacc li .left-content .last-span a {
@@ -1760,7 +1758,7 @@ section.more-info .count-area-content .count-digit {
   height: 80px;
   line-height: 80px;
   font-size: 28px;
-  color: #dc8cdb;
+  color: #0e9bdf;
   font-weight: 900;
   margin-bottom: -40px;
   position: relative;
@@ -1820,8 +1818,8 @@ body {
   }
 
   .header-area {
-    background: rgb(219, 138, 222) !important;
-    background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%) !important;
+    background: rgb(14, 155, 223) !important;
+    background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   }
 
   .services .owl-nav .owl-next {
@@ -1995,7 +1993,7 @@ body {
   }
 
   section.our-team .naccs .menu div.active img {
-    border: 3px solid #dc8cdb;
+    border: 3px solid #0e9bdf;
   }
 
   section.our-team .naccs .menu div h4,
