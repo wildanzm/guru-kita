@@ -191,8 +191,8 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219, 138, 222);
-  background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%);
+  background: rgb(14, 155, 223) !important;
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -202,8 +202,8 @@ body {
 }
 
 .main-button-gradient a:hover {
-  background: rgb(219, 138, 222);
-  background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%);
+  background: rgb(14, 155, 223) !important;
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   opacity: 0.9;
 }
 
@@ -751,9 +751,8 @@ section.main-banner {
 
 .main-banner .right-image::after {
   position: absolute;
-  background-image: url(../images/banner-right-dec.png);
-  width: 378px;
-  height: 378px;
+  width: 400px;
+  height: 400px;
   content: '';
   right: -25%;
   z-index: 1;
@@ -761,7 +760,6 @@ section.main-banner {
 
 .main-banner .header-text::after {
   position: absolute;
-  background-image: url(../images/banner-left-dec.png);
   width: 214px;
   height: 429px;
   content: '';
@@ -773,10 +771,10 @@ section.main-banner {
 .main-banner .header-text h6 {
   position: relative;
   z-index: 2;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   text-transform: capitalize;
-  color: #777777;
+  color: #111111;
   ;
 }
 
@@ -784,16 +782,16 @@ section.main-banner {
   position: relative;
   z-index: 2;
   margin-top: 20px;
-  font-size: 64px;
+  font-size: 50px;
   color: #111111;
   font-weight: 900;
   line-height: 74px;
   margin-bottom: 40px;
 }
 
-.main-banner .header-text h2 em {
+.main-banner .header-text h6 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #0e9bdf;
 }
 
 .main-banner .main-button-gradient {
@@ -1155,7 +1153,8 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/footer-bg.png);
+  background: rgb(14, 155, 223) !important;
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1784,8 +1783,8 @@ body {
   }
 
   .header-area {
-    background: rgb(219, 138, 222) !important;
-    background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%) !important;
+    background: rgb(14, 155, 223) !important;
+    background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%) !important;
   }
 
   .services .owl-nav .owl-next {
