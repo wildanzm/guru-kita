@@ -863,6 +863,7 @@ section.our-courses {
 }
 
 section.our-courses .section-heading p {
+  font-size: 17px;
   padding: 0px 60px;
 }
 
@@ -904,12 +905,12 @@ section.our-courses .naccs .menu div {
   vertical-align: middle;
   font-weight: 900;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  border: 3px solid rgba(219, 138, 222, 0.5);
+  border: 3px solid rgb(14, 155, 223, 1);
 }
 
 section.our-courses .naccs .menu div.active {
-  color: #dc8cdb;
-  border: 3px solid rgba(219, 138, 222, 1);
+  color: #0e9bdf;
+  border: 3px solid rgb(14, 155, 223, 1);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -950,14 +951,14 @@ section.our-courses ul.nacc li .left-image img {
 
 section.our-courses ul.nacc li .left-image .price h6 {
   position: absolute;
-  background: rgb(219, 138, 222);
-  background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%);
+  background: rgb(14, 155, 223,);
+  background: linear-gradient(45deg, rgba(14, 155, 223, 1) 0%, rgba(33, 165, 177, 1) 100%);
   color: #fff;
   top: 20px;
   left: 20px;
   font-size: 20px;
   font-weight: 700;
-  width: 50px;
+  width: 130px;
   height: 50px;
   border-radius: 3px;
   display: inline-block;
@@ -1002,6 +1003,11 @@ section.our-courses ul.nacc li .right-content p {
 
 section.our-courses ul.nacc li .right-content .text-button {
   margin-top: 20px;
+}
+
+section.our-courses ul.nacc li .right-content .text-button a {
+  color: white;
+  text-decoration: none !important;
 }
 
 section.our-courses ul.nacc li.active {
